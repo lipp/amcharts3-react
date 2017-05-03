@@ -262,6 +262,7 @@
       // TODO make this faster
       if (didUpdate) {
         this.state.chart.validateNow(true);
+        this.state.chart.validateData();
       }
     },
 
